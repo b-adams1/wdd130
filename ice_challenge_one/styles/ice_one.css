@@ -1,0 +1,45 @@
+body {
+    background-color:#2DA1CB;
+}
+
+.header h1 {
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+
+.header h1:hover {
+    color:black;
+    font-size:40px;
+    text-align:center;
+}
+
+.header p {
+    color:white;
+    text-align:center;
+}
+
+.header h3 {
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+
+.main img {
+    display:block;
+    width:100px;
+    height:auto;
+    margin:auto;
+}
+
+.main h2 {
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+
+.main p.name {
+    color:black;
+    font-size:10px;
+    text-align:center;
+}

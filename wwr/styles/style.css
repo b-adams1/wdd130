@@ -1,47 +1,25 @@
-#content {
-    max-width:1600px;
-    margin: 0 auto;
-}
-
-nav a {
-    text-align:center;
-    color:black;
-    text-decoration:none;
-}
-
-#hero_msg h1, #hero_msg h4 {
-    text-align:center;
-}
-
-.button_box {
-    text-align:center;
-}
-
-main section {
-    text-align:center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 #background {
     height:75px;
+    background-color:#9CC1BE;
 }
 
 body {
     background-color:#9CC1BE;
-}
-
-header {
-    background-color:#A4C9DF;
-}
-
-nav a:hover {
-    background-color:#2F7360;
-    color:black;
+    font-size:22px;
+    padding:0;
+    margin:0;
 }
 
 .book, .join {
     background-color:#A4C9DF;
     color:black;
     text-decoration:none;
+    font-size:18px;
+    padding:15px 30px;
+    margin-top:50px;
+    border-radius:5px;
 }
 
 .book:hover, .join:hover {
@@ -49,33 +27,28 @@ nav a:hover {
     color:black;
 }
 
-#background {
-    background-color:#9CC1BE;
+.button_box {
+    text-align:center;
 }
 
-.msg {
-    background-color:#F9FAF9;
+.camping_card {
+    margin:200px 0;
+}
+
+.card_img {
+    border:10px solid black;
+}
+
+#content {
+    max-width:1600px;
+    margin: 0 auto;
 }
 
 footer {
     background-color:#F9FAF9;
     color:black;
-}
-
-.home_title {
-    color:black;
-}
-
-h4 {
-    color:black;
-}
-
-.msg h2 {
-    color:black;
-}
-
-.msg p {
-    color:black;
+    padding:25px 50px;
+    margin-top:200px;
 }
 
 footer a {
@@ -87,18 +60,6 @@ footer a:hover {
     color:black;
 }
 
-.logo {
-    width:80px
-}
-
-.icon {
-    width:80px
-}
-
-#hero_img {
-    width:100%
-}
-
 footer p {
     font-size:1.2em;
 }
@@ -107,3 +68,93 @@ footer p a:hover {
     text-decoration:underline;
 }
 
+footer .social img {
+    padding-top:15px;
+}
+
+h2 {
+    margin:0;
+}
+
+h4 {
+    color:black;
+}
+
+header {
+    background-color:#A4C9DF;
+}
+
+#hero_image {
+    width:100%;
+}
+
+#hero_msg h1 {
+    text-align:center;
+}
+
+#hero_msg h4 {
+    text-align:center;
+}
+
+.home_title {
+    color:black;
+    font-size:2em;
+    margin-top:10px;
+}
+
+.icon {
+    width:80px;
+    padding-top:10px;
+}
+
+.logo {
+    width:80px;
+}
+
+#logo_link {
+    padding-top:5px;
+}
+
+main section {
+    text-align:center;
+}
+
+main section img {
+    box-sizing:border-box;
+}
+
+.msg {
+    background-color:#F9FAF9;
+    line-height:1.5em;
+    padding:35px;
+}
+
+.msg h2 {
+    color:black;
+}
+
+.msg p {
+    color:black;
+    font-size:0.8em;
+    padding-bottom:15px;
+}
+
+nav a {
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    padding:35px;
+}
+
+nav a:hover {
+    background-color:#2F7360;
+    color:black;
+}
+
+.rapids_card {
+    margin:200px 0;
+}
+
+.rivers_card {
+    margin:200px 0;
+}

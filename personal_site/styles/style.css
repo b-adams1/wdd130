@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+header a img {
+    width: 100px;
+    float: right;
+}
+
+nav {
+    background-color: #b1902b;
+    line-height: 3em;
+    height: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    min-width: 120px;
+    width: 100%;
+    padding: 1em;
+    color: #372f18;
+    background-color: #b1902b;
+    text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #edb65e;
+}
+
+main img {
+    width: 33%;   
+    margin-left: 33%; 
+}
+
+main h1 {
+    text-align: center;
+    margin: auto;
+    font-family: "Spectral SC";
+    color: #372f18;
+    -webkit-text-stroke-width: 0.001px;
+    -webkit-text-stroke-color: black;
+    font-size: 75px;
+}
+
+main p {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #372f18;
+    color: #b1902b;
+    font-family: "Gilda Display";
+    font-size: 20px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #b1902b;
+    color: #372f18;
+}
+
+footer a {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #b1902b;
+    color: #372f18;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #edb65e;
+}

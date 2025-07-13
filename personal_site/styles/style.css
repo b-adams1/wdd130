@@ -94,3 +94,30 @@ footer a:hover {
     color: white;
     background-color: #edb65e;
 }
+
+#page_one {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px 200px 2fr;
+}
+
+#title_lim {
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+}
+
+#lim_one {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 300px;
+}
+
+#lim_two {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    width: 300px;
+}
+
+#list_lim {
+    grid-row: 3 / 4
+}

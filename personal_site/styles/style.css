@@ -95,29 +95,36 @@ footer a:hover {
     background-color: #edb65e;
 }
 
-#page_one {
+#page {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 200px 275px 2fr;
 }
 
-#title_lim {
+#title_page {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
 }
 
-#lim_one {
+#image_one {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
     width: 400px;
 }
 
-#lim_two {
+#image_two {
     grid-column: 3 / 6;
     grid-row: 2 / 3;
     width: 400px;
 }
 
-#list_lim {
-    grid-row: 3 / 4
+#list_page {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    column-count: 2;
+    column-gap: 125%;
+    break-inside: avoid;
+    white-space: nowrap;
+    font-family: "Spectral SC";
+    font-size: larger;
 }

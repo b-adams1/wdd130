@@ -11,9 +11,10 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 75px;
     float: right;
     border-radius: 50%;
+    margin: 13px 10px 10px 10px;
 }
 
 nav {
@@ -38,16 +39,10 @@ nav a:hover {
   background-color: #edb65e;
 }
 
-#background {
-    background-image: url(../image/elden_ring2_1600.jpg);
-    opacity: .5;
-    z-index: -1;
-}
-
-#top {
-    /*display: block;
-    margin: 0 auto;*/
-    z-index: 1;        
+#main_page {
+    background: url(../image/opacity_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main img {
@@ -75,6 +70,7 @@ main p {
     color: #b1902b;
     font-family: "Gilda Display";
     font-size: 20px;
+    padding: 5px 5px 5px 5px;
 }
 
 footer {
@@ -97,8 +93,8 @@ footer a:hover {
 
 #page {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 200px 275px 2fr;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 175px 300px 2fr;
 }
 
 #title_page {
@@ -107,24 +103,27 @@ footer a:hover {
 }
 
 #image_one {
-    grid-column: 1 / 3;
+    grid-column: 0 / 3;
     grid-row: 2 / 3;
-    width: 400px;
+    width: 500px;
+    border-radius: 5%;
 }
 
 #image_two {
     grid-column: 3 / 6;
     grid-row: 2 / 3;
-    width: 400px;
+    width: 500px;
+    border-radius: 5%; 
 }
 
 #list_page {
-    grid-column: 2 / 4;
+    grid-column: 1 / 3;
     grid-row: 3 / 4;
     column-count: 2;
-    column-gap: 125%;
+    column-gap: 167%;
     break-inside: avoid;
     white-space: nowrap;
     font-family: "Spectral SC";
     font-size: larger;
+    margin-left: 75px;
 }
